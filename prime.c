@@ -17,7 +17,6 @@ int main() {
   }
 
   if(num==1) printf("1 is not a prime number");
-
   if(flag && num!=1)printf("%d is a prime number \n",num);
   
   
