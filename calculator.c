@@ -15,7 +15,7 @@ int main() {
 
     char c;
     printf("Enter operation to perform (+, -, /, *): ");
-    scanf(" %c", &c); // Note the space before %c
+    scanf(" %c", &c); 
 
     int ans;
 
@@ -57,7 +57,7 @@ int pro(int a, int b) {
 int div(int a, int b) {
     if (b == 0) {
         printf("Error: Division by zero\n");
-        return 0; // Returning 0, but you can handle this error differently if you wish
+        return 0; 
     }
     return a / b;
 }
